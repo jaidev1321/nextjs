@@ -11,9 +11,9 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
-      <Link href="/login">Go to Login</Link>
+      <Link href="/about/company">About Company</Link>
       <br />
-      <Link href="/about">Go to About</Link>
+      <Link href="/about/team">About Team</Link>
 
       <button onClick={() => navigate('/login')}>Login</button>
       <button onClick={()=>navigate("/about")}>About</button>
