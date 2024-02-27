@@ -11,6 +11,8 @@ export default function Home() {
   }
   return (
     <main className={styles.main}>
+      <h2>Dynamic Routing</h2>
+      <Link href="/user">User List</Link>
       <Link href="/about/company">About Company</Link>
       <br />
       <Link href="/about/team">About Team</Link>
