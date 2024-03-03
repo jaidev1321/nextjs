@@ -22,12 +22,16 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How to setup 404 not found page
+after version 13, we need to create a file unde app folder with name "not-found.js"
+The NextJS find this file whenever any url not found 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## How to create custimized 404 with route segment
+Simply create a folder under any specific route like:
+src/app/about/[...404] and create a file "page.js". whenever any user search for {PROJECT_URL}/about/anyWrongUri then this file will load 
+
 
 ## Deploy on Vercel
 
